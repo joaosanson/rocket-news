@@ -24,6 +24,23 @@ body {
   justify-content: space-between;
 }
 
+.background {
+  display: flex;
+  height: 100vh;
+}
+
+.right-side {
+  width: 50%;
+  background-color: #121214;
+}
+
+.image-section {
+  width: 50%;
+  background-image: url(/assets/read_news.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .header {
   margin: 40px;
   display: flex;
@@ -43,7 +60,6 @@ body {
   flex-direction: column;
   gap: 10px;
   margin-top: 40px;
-  width: 50%;
 }
 
 .content-info-title {
@@ -71,9 +87,15 @@ body {
 }
 
 .form {
-  margin-top: 50px;
+  position: absolute;
+  margin-top: 250px;
   display: flex;
   flex-direction: column;
+}
+
+.form-form {
+  display: flex;
+  flex-direction: row;
 }
 
 .form-text {
@@ -94,17 +116,13 @@ body {
 
 .form-input {
   padding: 20px;
-  width: 900px;
+  width: 1000px;
   height: 60px;
 }
 
-.form-button {
-  height: 50px;
+.form-btn {
+  height: 60px;
   width: 50px;
-}
-
-.form-btn-img {
-  color: white;
 }
 
 .content-read-link {
@@ -112,6 +130,8 @@ body {
 }
 
 .read-link {
+  position: absolute;
+  margin-top: 200px;
   font-family: "League Spartan", sans-serif;
   font-weight: 700;
   font-size: 20px;
