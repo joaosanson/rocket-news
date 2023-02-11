@@ -1,52 +1,69 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="style.css" />
     <title>RocketNews</title>
   </head>
   <body>
-    <div class="background">
-      <div class="right-side">
-        <header class="header">
-          <img class="logo-img" src="/assets/logo.svg" alt="RocketNews logo." />
-        </header>
-        <main class="content">
-          <div class="content-info">
-            <h1 class="content-info-title">
-              Atualize ideias e informações em 5 minutos.
-            </h1>
-            <h2 class="content-info-subtitle">
-              Tudo que você precisa saber para começar seu dia bem informado
-            </h2>
-            <p class="content-info-text">
-              Notícias sobre o universo Rocketseat, e tudo o que precisa para
-              começar o dia melhor. Perfeito para se preparar para codar ☕
-            </p>
-          </div>
-          <div class="form">
-            <label class="form-text" for="email">Insira seu E-mail:</label>
+    <div class="container">
+      <div class="main">
+        <img src="/assets/logo.svg" alt="" />
+        <div class="content">
+          <h1>atualize ideias e informações em 5 minutos.</h1>
+          <h2>tudo que você precisa para começar seu dia bem informado</h2>
+          <p>
+            noticias sobre o universo Rocketseat, e tudo o que precisa para
+            começar o dia melhor. perfeito para se preparar para codar ☕
+          </p>
 
-            <form class="form-form" action="" method="">
-              <input type="email" id="email" name="email" required />
-              <input type="submit" value="Submit" />
-            </form>
-          </div>
-          <div class="content-read-link">
-            <a class="read-link" href="">
-              deixe-me ler primeiro
-              <img
-                class="arrow-right"
-                src="/assets/arrow-right.svg"
-                alt="Flecha para a direita"
-              />
-            </a>
-          </div>
-        </main>
+          
+          <form action="" method="">
+            <label for="email">Insira seu e-mail:</label> <br>
+
+            <div>
+                <svg width="5" height="48" viewBox="0 0 5 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="5" height="48" fill="#04D361"/>
+                </svg>
+
+                <input id="email" type="email" name="email" placeholder="oi@rocketseat.com">
+            
+                <button type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" 
+                    stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+                    class="feather feather-send"><line x1="22" y1="2" x2="11" y2="13"></line><polygon 
+                    points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                </button>
+            </div>
+
+
+          <a href=""
+            ><h3>deixe-me ler primeiro</h3>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              stroke="#8257e5"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-arrow-right"
+            >
+              <line x1="5" y1="12" x2="19" y2="12"></line>
+              <polyline points="12 5 19 12 12 19"></polyline>
+            </svg>
+          </a>
+        </div>
       </div>
-      <div class="image-section"></div>
+      <div class="aside">
+        <img
+          src="/assets/read_news.jpg"
+          alt="Homem branco de barca branca, usando moletom bege e relógio preto, sentado à mesa mexendo no notebook."
+        />
+      </div>
     </div>
   </body>
 </html>
